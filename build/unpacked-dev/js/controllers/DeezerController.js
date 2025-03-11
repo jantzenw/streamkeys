@@ -38,7 +38,7 @@
       document.querySelector("[data-testid='angry_face_button']").closest("button").click();
     }
     setTimeout(function () {
-      document.querySelector("[data-testid='NoteBanIcon']").closest("button").click();
+      document.querySelector("[data-testid='NoteBanIcon']").closest("div").click();
     }, 100);
   };
 
